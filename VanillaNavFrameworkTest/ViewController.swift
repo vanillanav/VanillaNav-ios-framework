@@ -11,7 +11,7 @@ import VanillaNavFramework
 
 class ViewController: UIViewController {
     
-    let venueId: UInt64 = 5949
+    let venueId: UInt64 = 12070
     let savedIdText = "Saved id: "
     
     @IBOutlet weak var textLabel: UILabel!
