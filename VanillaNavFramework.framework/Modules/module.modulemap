@@ -1,0 +1,11 @@
+framework module VanillaNavFramework {
+  umbrella header "VanillaNavFramework.h"
+  header "OverlayTransformExtractor.h"
+  export *
+  module * { export * }
+}
+
+
+module VanillaNavFramework.Swift {
+    header "VanillaNavFramework-Swift.h"
+}

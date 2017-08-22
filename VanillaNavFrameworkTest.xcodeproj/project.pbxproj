@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C02590884B6C829D98DC182 /* Pods_VanillaNavFrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7D865C7CFC6FEE928E1BD4 /* Pods_VanillaNavFrameworkTest.framework */; };
+		A21FDD921EC9DF7E0048D560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21FDD911EC9DF7E0048D560 /* AppDelegate.swift */; };
+		A21FDD941EC9DF7E0048D560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21FDD931EC9DF7E0048D560 /* ViewController.swift */; };
+		A21FDD971EC9DF7E0048D560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21FDD951EC9DF7E0048D560 /* Main.storyboard */; };
+		A21FDD991EC9DF7E0048D560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21FDD981EC9DF7E0048D560 /* Assets.xcassets */; };
+		A21FDD9C1EC9DF7E0048D560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21FDD9A1EC9DF7E0048D560 /* LaunchScreen.storyboard */; };
+		A21FDDA71EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21FDDA61EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A21FDDA31EC9DF7F0048D560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21FDD861EC9DF7E0048D560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21FDD8D1EC9DF7E0048D560;
+			remoteInfo = VanillaNavFrameworkTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CA316168E96F5DF464C1CC1 /* Pods-VanillaNavFrameworkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanillaNavFrameworkTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-VanillaNavFrameworkTest/Pods-VanillaNavFrameworkTest.release.xcconfig"; sourceTree = "<group>"; };
+		6B7D865C7CFC6FEE928E1BD4 /* Pods_VanillaNavFrameworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VanillaNavFrameworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21FDD8E1EC9DF7E0048D560 /* VanillaNavFrameworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanillaNavFrameworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21FDD911EC9DF7E0048D560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A21FDD931EC9DF7E0048D560 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A21FDD961EC9DF7E0048D560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A21FDD981EC9DF7E0048D560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A21FDD9B1EC9DF7E0048D560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A21FDD9D1EC9DF7E0048D560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21FDDA21EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanillaNavFrameworkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21FDDA61EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanillaNavFrameworkTestUITests.swift; sourceTree = "<group>"; };
+		A21FDDA81EC9DF7F0048D560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECF5E31E7E1F52A472B68E1 /* Pods-VanillaNavFrameworkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanillaNavFrameworkTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VanillaNavFrameworkTest/Pods-VanillaNavFrameworkTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A21FDD8B1EC9DF7E0048D560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C02590884B6C829D98DC182 /* Pods_VanillaNavFrameworkTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21FDD9F1EC9DF7F0048D560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BC005A0CBCFBB9C70E1EB8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AECF5E31E7E1F52A472B68E1 /* Pods-VanillaNavFrameworkTest.debug.xcconfig */,
+				2CA316168E96F5DF464C1CC1 /* Pods-VanillaNavFrameworkTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A21FDD851EC9DF7E0048D560 = {
+			isa = PBXGroup;
+			children = (
+				A21FDD901EC9DF7E0048D560 /* VanillaNavFrameworkTest */,
+				A21FDDA51EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests */,
+				A21FDD8F1EC9DF7E0048D560 /* Products */,
+				6BC005A0CBCFBB9C70E1EB8B /* Pods */,
+				ED64A9060B5DA0CC89FC9E30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A21FDD8F1EC9DF7E0048D560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21FDD8E1EC9DF7E0048D560 /* VanillaNavFrameworkTest.app */,
+				A21FDDA21EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A21FDD901EC9DF7E0048D560 /* VanillaNavFrameworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				A21FDD911EC9DF7E0048D560 /* AppDelegate.swift */,
+				A21FDD931EC9DF7E0048D560 /* ViewController.swift */,
+				A21FDD951EC9DF7E0048D560 /* Main.storyboard */,
+				A21FDD981EC9DF7E0048D560 /* Assets.xcassets */,
+				A21FDD9A1EC9DF7E0048D560 /* LaunchScreen.storyboard */,
+				A21FDD9D1EC9DF7E0048D560 /* Info.plist */,
+			);
+			path = VanillaNavFrameworkTest;
+			sourceTree = "<group>";
+		};
+		A21FDDA51EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A21FDDA61EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests.swift */,
+				A21FDDA81EC9DF7F0048D560 /* Info.plist */,
+			);
+			path = VanillaNavFrameworkTestUITests;
+			sourceTree = "<group>";
+		};
+		ED64A9060B5DA0CC89FC9E30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B7D865C7CFC6FEE928E1BD4 /* Pods_VanillaNavFrameworkTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A21FDD8D1EC9DF7E0048D560 /* VanillaNavFrameworkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21FDDAB1EC9DF7F0048D560 /* Build configuration list for PBXNativeTarget "VanillaNavFrameworkTest" */;
+			buildPhases = (
+				FAEA0803376677F0D9D720A6 /* [CP] Check Pods Manifest.lock */,
+				A21FDD8A1EC9DF7E0048D560 /* Sources */,
+				A21FDD8B1EC9DF7E0048D560 /* Frameworks */,
+				A21FDD8C1EC9DF7E0048D560 /* Resources */,
+				4F9CD8575323FC0A27CAB139 /* [CP] Embed Pods Frameworks */,
+				6685D1AE352310AE47133FD1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VanillaNavFrameworkTest;
+			productName = VanillaNavFrameworkTest;
+			productReference = A21FDD8E1EC9DF7E0048D560 /* VanillaNavFrameworkTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A21FDDA11EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21FDDAE1EC9DF7F0048D560 /* Build configuration list for PBXNativeTarget "VanillaNavFrameworkTestUITests" */;
+			buildPhases = (
+				A21FDD9E1EC9DF7F0048D560 /* Sources */,
+				A21FDD9F1EC9DF7F0048D560 /* Frameworks */,
+				A21FDDA01EC9DF7F0048D560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21FDDA41EC9DF7F0048D560 /* PBXTargetDependency */,
+			);
+			name = VanillaNavFrameworkTestUITests;
+			productName = VanillaNavFrameworkTestUITests;
+			productReference = A21FDDA21EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A21FDD861EC9DF7E0048D560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dorin Danilov";
+				TargetAttributes = {
+					A21FDD8D1EC9DF7E0048D560 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E9RJFARMPP;
+						ProvisioningStyle = Automatic;
+					};
+					A21FDDA11EC9DF7F0048D560 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A21FDD8D1EC9DF7E0048D560;
+					};
+				};
+			};
+			buildConfigurationList = A21FDD891EC9DF7E0048D560 /* Build configuration list for PBXProject "VanillaNavFrameworkTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A21FDD851EC9DF7E0048D560;
+			productRefGroup = A21FDD8F1EC9DF7E0048D560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21FDD8D1EC9DF7E0048D560 /* VanillaNavFrameworkTest */,
+				A21FDDA11EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21FDD8C1EC9DF7E0048D560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21FDD9C1EC9DF7E0048D560 /* LaunchScreen.storyboard in Resources */,
+				A21FDD991EC9DF7E0048D560 /* Assets.xcassets in Resources */,
+				A21FDD971EC9DF7E0048D560 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21FDDA01EC9DF7F0048D560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F9CD8575323FC0A27CAB139 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VanillaNavFrameworkTest/Pods-VanillaNavFrameworkTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6685D1AE352310AE47133FD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VanillaNavFrameworkTest/Pods-VanillaNavFrameworkTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAEA0803376677F0D9D720A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21FDD8A1EC9DF7E0048D560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21FDD941EC9DF7E0048D560 /* ViewController.swift in Sources */,
+				A21FDD921EC9DF7E0048D560 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21FDD9E1EC9DF7F0048D560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21FDDA71EC9DF7F0048D560 /* VanillaNavFrameworkTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A21FDDA41EC9DF7F0048D560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21FDD8D1EC9DF7E0048D560 /* VanillaNavFrameworkTest */;
+			targetProxy = A21FDDA31EC9DF7F0048D560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A21FDD951EC9DF7E0048D560 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21FDD961EC9DF7E0048D560 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A21FDD9A1EC9DF7E0048D560 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21FDD9B1EC9DF7E0048D560 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A21FDDA91EC9DF7F0048D560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A21FDDAA1EC9DF7F0048D560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A21FDDAC1EC9DF7F0048D560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECF5E31E7E1F52A472B68E1 /* Pods-VanillaNavFrameworkTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E9RJFARMPP;
+				INFOPLIST_FILE = VanillaNavFrameworkTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rosoftlab.VanillaNavFrameworkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A21FDDAD1EC9DF7F0048D560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA316168E96F5DF464C1CC1 /* Pods-VanillaNavFrameworkTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E9RJFARMPP;
+				INFOPLIST_FILE = VanillaNavFrameworkTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rosoftlab.VanillaNavFrameworkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A21FDDAF1EC9DF7F0048D560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VanillaNavFrameworkTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rosoftlab.VanillaNavFrameworkTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VanillaNavFrameworkTest;
+			};
+			name = Debug;
+		};
+		A21FDDB01EC9DF7F0048D560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VanillaNavFrameworkTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.rosoftlab.VanillaNavFrameworkTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VanillaNavFrameworkTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A21FDD891EC9DF7E0048D560 /* Build configuration list for PBXProject "VanillaNavFrameworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21FDDA91EC9DF7F0048D560 /* Debug */,
+				A21FDDAA1EC9DF7F0048D560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21FDDAB1EC9DF7F0048D560 /* Build configuration list for PBXNativeTarget "VanillaNavFrameworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21FDDAC1EC9DF7F0048D560 /* Debug */,
+				A21FDDAD1EC9DF7F0048D560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21FDDAE1EC9DF7F0048D560 /* Build configuration list for PBXNativeTarget "VanillaNavFrameworkTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21FDDAF1EC9DF7F0048D560 /* Debug */,
+				A21FDDB01EC9DF7F0048D560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A21FDD861EC9DF7E0048D560 /* Project object */;
+}
